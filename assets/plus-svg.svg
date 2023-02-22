@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ddd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Mins" class="cls-1" d="M828,2623.22h16v3.56H828v-3.56Zm6.222,9.78v-16h3.556v16h-3.556Z" transform="translate(-828 -2617)"/>
+</svg>
