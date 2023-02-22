@@ -16,11 +16,18 @@ body {
     font-family: Poppins, sans-serif;
 }
 
+main {
+    max-width: 1380px;
+}
+
+/************************************* Navbar ********************************************/
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
+    padding: 20px;
+    background-color: #000;
 }
 
 nav {
@@ -28,7 +35,6 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 80px;
-    padding: 0 0 0 100px;
     height: 30px;
 }
 
@@ -44,23 +50,24 @@ nav li {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+    color: #dddddd;
 }
 
 nav li:hover {
     color: var(--yellow_main);
+    border-bottom: 3px solid var(--yellow_main);
 }
 
 .nav_call {
-    background-image: url(./assets/nav_call_bg.png);
     display: flex;
     align-items: center;
     gap: 5px;
-    color: white;
-    padding: 20px 150px 20px 60px;
-    /* background-color: var(--yellow_main); */
-    
+    color: var(--yellow_main);
+    cursor: pointer;
 }
+/************************************* Navbar End ********************************************/
 
+/************************************* Banner ************************************************/
 .banner {
     background-color: #353535;
     display: flex;
@@ -119,8 +126,6 @@ nav li:hover {
 
 .banner_btn1:hover {
     background-color: #093b69;
-    
-
 }
 
 .banner_btn2 {
@@ -149,7 +154,10 @@ nav li:hover {
     color: var(--yellow_main);
     font-weight: 500;
 }
+/************************************* Banner End ********************************************/
 
+
+/************************************* Section 1 **********************************************/
 .section1 {
     display: flex;
     align-items: center;
@@ -263,6 +271,10 @@ nav li:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/************************************* Section 1 End **********************************************/
+
+
+/************************************* Section 2 *************************************************/
 .section-2 {
     background-color: #17324e;
     display: flex;
@@ -296,11 +308,14 @@ nav li:hover {
     font-weight: 600;
     color: var(--yellow_main);
 }
+/************************************* Section 2 End **********************************************/
 
+/************************************* Section 3 **************************************************/
 .section-3 .services {
     display: flex;
     align-items: center;
-    padding: 0 5px;
+    padding: 0 10px;
+    flex-wrap: wrap;
 }
 
 .services div {
@@ -323,6 +338,7 @@ nav li:hover {
     color: gray;
     text-align: center;
     margin-top: 10px;
+    max-width: 180px;
 }
 .services_learn_more {
     display: none;
@@ -358,6 +374,10 @@ nav li:hover {
 .services div:hover .svg-1 {
     fill: white;
 }
+/************************************* Section 3 END **********************************************/
+
+
+/************************************* Section 4 **************************************************/
 .section-4 {
     display: flex;
     align-items: center;
@@ -447,7 +467,10 @@ nav li:hover {
     top: 20px;
     left: 20px;
 }
+/************************************* Section 4 END **********************************************/
 
+
+/************************************* Section 5 **************************************************/
 .section-5 {
     background-image: url(./assets/cs-bg-img.png);
 
@@ -494,6 +517,7 @@ nav li:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cs-card {
@@ -566,9 +590,11 @@ nav li:hover {
 .cs-card:hover .card-btm-txt .p-span {
     visibility: visible;
     opacity: 1;
-
 }
+/************************************* Section 5 END **********************************************/
 
+
+/************************************* Section 6 **************************************************/
 .section-6 {
     background-color: #102f4e;
     position: relative;
@@ -618,7 +644,10 @@ nav li:hover {
 .section-6_right-arrow {
     color: var(--yellow_main);
 }
+/************************************* Section 6 END *********************************************/
 
+
+/************************************* Section 7 *************************************************/
 .section-7 {
     padding: 20px;
     padding-bottom: 50px;
@@ -693,6 +722,8 @@ nav li:hover {
     align-items: center;
     padding-top: 30px;
     transition: transform 1s;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .pricing_card {
@@ -802,8 +833,10 @@ cursor: pointer;
     border: none;
     cursor: pointer;
 }
+/************************************* Section 7 END **********************************************/
 
 
+/************************************* Section 8 **************************************************/
 .section-8 {
     background-image: url(./assets/cb-background.png);
     background-position: center;
@@ -873,7 +906,10 @@ cursor: pointer;
 .blank-img-div img {
     border-radius: 4px 4px 0 0;
 }
+/************************************* Section 8 END **********************************************/
 
+
+/************************************* Section 9 *************************************************/
 .section-9 {
     padding: 40px;
     display: flex;
@@ -881,7 +917,10 @@ cursor: pointer;
     justify-content: center;
     gap: 50px;
 }
+/************************************* Section 9 END *************************************************/
 
+
+/************************************* Section 10  ***************************************************/
 .section-10 {
     padding: 60px 40px;
     background-color: var(--yellow_main);
@@ -936,8 +975,10 @@ cursor: pointer;
     right: 20px;
     top: 12px;
 }
+/************************************* Section 10 END *************************************************/
 
 
+/******************************************** Footer *************************************************/
 footer {
     background-color: var(--blue_footer);
     padding: 20px;
@@ -1025,3 +1066,5 @@ h6 {
     color: #f8f8f8;
     padding: 15px 0px;
 }
+/******************************************** Footer END *************************************************/
+
