@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    max-width: 1380px;
+    max-width: 1366px;
 }
 
 /************************************* Navbar ********************************************/
@@ -65,6 +65,7 @@ nav li:hover {
     color: var(--yellow_main);
     cursor: pointer;
 }
+
 /************************************* Navbar End ********************************************/
 
 /************************************* Banner ************************************************/
@@ -157,6 +158,7 @@ nav li:hover {
     color: var(--yellow_main);
     font-weight: 500;
 }
+
 /************************************* Banner End ********************************************/
 
 
@@ -254,9 +256,10 @@ nav li:hover {
     color: black;
     font-weight: 500;
 }
+
 .callback_form input[type="message"] {
     height: 50px;
-}   
+}
 
 .callback_form button {
     text-transform: uppercase;
@@ -311,6 +314,7 @@ nav li:hover {
     font-weight: 600;
     color: var(--yellow_main);
 }
+
 /************************************* Section 2 End **********************************************/
 
 /************************************* Section 3 **************************************************/
@@ -342,6 +346,7 @@ nav li:hover {
     margin-top: 10px;
     max-width: 180px;
 }
+
 .services_learn_more {
     display: none;
 }
@@ -376,6 +381,7 @@ nav li:hover {
 .services div:hover .svg-1 {
     fill: white;
 }
+
 /************************************* Section 3 END **********************************************/
 
 
@@ -469,6 +475,7 @@ nav li:hover {
     top: 20px;
     left: 20px;
 }
+
 /************************************* Section 4 END **********************************************/
 
 
@@ -593,6 +600,7 @@ nav li:hover {
     visibility: visible;
     opacity: 1;
 }
+
 /************************************* Section 5 END **********************************************/
 
 
@@ -646,6 +654,7 @@ nav li:hover {
 .section-6_right-arrow {
     color: var(--yellow_main);
 }
+
 /************************************* Section 6 END *********************************************/
 
 
@@ -729,15 +738,15 @@ nav li:hover {
 }
 
 .pricing_card {
-box-shadow: 5px 5px 5px  #dddddd;
-margin-right: 20px;
-border-left: 1px solid #dddddd;
-border-radius: 5px;
-cursor: pointer;
+    box-shadow: 5px 5px 5px #dddddd;
+    margin-right: 20px;
+    border-left: 1px solid #dddddd;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .pricing_card:hover .pricing_card_head,
-.pricing_card:hover .pricing_benifits button  {
+.pricing_card:hover .pricing_benifits button {
     background-color: var(--yellow_main);
 }
 
@@ -812,11 +821,11 @@ cursor: pointer;
     font-size: 15px;
 }
 
-.pricing_benifits p:nth-child(odd){
+.pricing_benifits p:nth-child(odd) {
     background-color: #f6f2f2;
 }
 
-.pricing_card:hover .pricing_benifits > p {
+.pricing_card:hover .pricing_benifits>p {
     color: #111111;
 }
 
@@ -835,6 +844,7 @@ cursor: pointer;
     border: none;
     cursor: pointer;
 }
+
 /************************************* Section 7 END **********************************************/
 
 
@@ -908,6 +918,7 @@ cursor: pointer;
 .blank-img-div img {
     border-radius: 4px 4px 0 0;
 }
+
 /************************************* Section 8 END **********************************************/
 
 
@@ -919,8 +930,9 @@ cursor: pointer;
     justify-content: center;
     gap: 60px;
     flex-wrap: wrap;
-    
+
 }
+
 /************************************* Section 9 END *************************************************/
 
 
@@ -979,6 +991,7 @@ cursor: pointer;
     right: 20px;
     top: 12px;
 }
+
 /************************************* Section 10 END *************************************************/
 
 
@@ -1070,76 +1083,83 @@ h6 {
     color: #f8f8f8;
     padding: 15px 0px;
 }
+
 /******************************************** Footer END *************************************************/
 
 @media only screen and (max-width: 400px) {
-        .section-4 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10;
-    
-        }
-        .section-4_left_div {
-            max-width: 700px;
-            margin-left: 0px;
-        }
-        .video-div {
-            position: relative;
-            top: 0px;
-            height: 350px;
-            width: 340px;
-        }
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10;
+
+    }
+
+    .section-4_left_div {
+        max-width: 700px;
+        margin-left: 0px;
+    }
+
+    .video-div {
+        position: relative;
+        top: 0px;
+        height: 350px;
+        width: 340px;
+    }
 }
+
 @media only screen and (min-width: 400px) {
     .section-4 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10;
-    
-        }
-        .section-4_left_div {
-            max-width: 700px;
-            margin-left: 0px;
-        }
-        .video-div {
-            position: relative;
-            top: 0px;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10;
+
+    }
+
+    .section-4_left_div {
+        max-width: 700px;
+        margin-left: 0px;
+    }
+
+    .video-div {
+        position: relative;
+        top: 0px;
+    }
 
 }
 
 @media only screen and (max-width: 600px) {
     .banner_content h1 {
-            font-size: 40px;
-        }
-        .section-6_content h4 {
-            font-size: 12px;
-        }
-        .section-6_content p {
-            font-size: 11px;
-        }
-        .banner_left_arrow, .banner_right_arrow {
-            height: 20px;
-            width: 20px;
-        }
+        font-size: 40px;
+    }
+
+    .section-6_content h4 {
+        font-size: 12px;
+    }
+
+    .section-6_content p {
+        font-size: 11px;
+    }
+
+    .banner_left_arrow,
+    .banner_right_arrow {
+        height: 20px;
+        width: 20px;
+    }
 }
 
-@media only screen and (min-width: 600px) {
-    
-
-}
+@media only screen and (min-width: 600px) {}
 
 @media only screen and (max-width: 700px) {
     .section-3 .services {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 5px;
-        }
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -1148,163 +1168,170 @@ h6 {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
     }
-    
+
 }
 
-@media only screen and (max-width: 768px) {
-        
-}
+@media only screen and (max-width: 768px) {}
 
-@media only screen and (min-width: 768px) {
-        
-}
+@media only screen and (min-width: 768px) {}
 
 @media only screen and (max-width: 992px) {
-        .section-2 {
-            flex-direction: column;
-            gap: 50px;    
-        }
-        .section-8 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-        }
-        .section-8_left_div {
-            flex: 1;
-            max-width: 500px;
-            margin-left: 20px;
-        }
-    
-        .section-8_form {
-            max-width: 550px;
-        }
-        .section-8_right_div {
-            display: none;
-        }
-        .section-10 {
-            padding: 30px 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-        }
-        .newsletter_input input[type="email"] {
-            width: 310px;
-        }
+    .section-2 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .section-8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-8_left_div {
+        flex: 1;
+        max-width: 500px;
+        margin-left: 20px;
+    }
+
+    .section-8_form {
+        max-width: 550px;
+    }
+
+    .section-8_right_div {
+        display: none;
+    }
+
+    .section-10 {
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .newsletter_input input[type="email"] {
+        width: 310px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
-        .section-8_right_div {
-                display: block;
-        }
-        .blank-img-div img {
-            height: 340px;
-            width: 345px;
-        }
+    .section-8_right_div {
+        display: block;
+    }
+
+    .blank-img-div img {
+        height: 340px;
+        width: 345px;
+    }
 }
 
 @media only screen and (max-width: 1055px) {
     .navbar {
-            justify-content: space-around; 
-        }
+        justify-content: space-around;
+    }
 
     nav ul {
         display: none;
     }
+
     .section-5_heading {
         flex-direction: column;
         gap: 10px;
-        
+
     }
 }
 
-@media only screen and (max-width: 1084px) {
-    
-}
+@media only screen and (max-width: 1084px) {}
 
 @media only screen and (min-width: 1084px) {
     .section-3 .services {
-            display: flex;
-            align-items: center;
-            padding: 0 10px;
-            gap: 1px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        gap: 1px;
     }
-        .section-4 {
-            display: flex;
-            align-items: center;
-            flex: 2;
-            gap: 50px;
-            padding: 40px;
-            position: relative;
-        }
-    
-        .section-4_left_div {
-            flex: 1;
-            max-width: 450px;
-            margin-left: -500px;
-        }
-    
-        .video-div {
-            height: 410px;
-            width: 420px;
-            background-color: #4c4c4c;
-            position: absolute;
-            top: 50px;
-            right: 100px;
-            box-shadow: -15px 15px var(--yellow_main);
-        }
+
+    .section-4 {
+        display: flex;
+        align-items: center;
+        flex: 2;
+        gap: 50px;
+        padding: 40px;
+        position: relative;
+    }
+
+    .section-4_left_div {
+        flex: 1;
+        max-width: 450px;
+        margin-left: -500px;
+    }
+
+    .video-div {
+        height: 410px;
+        width: 420px;
+        background-color: #4c4c4c;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        box-shadow: -15px 15px var(--yellow_main);
+    }
 }
 
 @media only screen and (max-width: 1100px) {
     .banner h4 {
-         display: none;
-        }
+        display: none;
+    }
+
     .section1_right {
         display: none;
     }
+
     .section-1 {
         flex: 1;
     }
-        .section1_left {
-            max-width: 1100px;
-        }
+
+    .section1_left {
+        max-width: 1100px;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
     .blank-img-div img {
         height: 400px;
         width: 400px;
-}  
+    }
 }
 
 @media only screen and (max-width: 1135px) {
     .pricing_card {
         margin-bottom: 25px;
     }
-        .ft-links-container {
-            display: none;
-        }
-        .footer-line {
-            display: none;
-        }
-        .footer-top {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-        }
-        .footer_end {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-        }
+
+    .ft-links-container {
+        display: none;
+    }
+
+    .footer-line {
+        display: none;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer_end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
-@media only screen and (min-width: 1200px) {
-    
-}
+@media only screen and (min-width: 1200px) {}
