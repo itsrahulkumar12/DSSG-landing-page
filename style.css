@@ -124,7 +124,7 @@ nav li:hover {
 
 .banner_btn1 {
     background-color: var(--blue_main);
-    border: none
+    border: 1px solid var(--blue_main);
 }
 
 .banner_btn1:hover {
@@ -1189,6 +1189,9 @@ h6 {
             justify-content: center;
             align-items: center;
             gap: 20px;
+        }
+        .newsletter_input input[type="email"] {
+            width: 310px;
         }
 }
 
