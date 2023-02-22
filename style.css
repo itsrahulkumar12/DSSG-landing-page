@@ -105,6 +105,9 @@ nav li:hover {
 
 .banner_buttons {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .banner_button {
@@ -1118,6 +1121,10 @@ h6 {
         }
         .section-6_content p {
             font-size: 11px;
+        }
+        .banner_left_arrow, .banner_right_arrow {
+            height: 20px;
+            width: 20px;
         }
 }
 
